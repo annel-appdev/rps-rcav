@@ -1,7 +1,3 @@
-<div><a href="/rock">Play Rock</a></div>
-<div><a href="/paper">Play Paper</a></div>
-<div><a href="/scissors">Play Scissors</a></div>
-
 <h2>We played Rock!</h2>
 
 <% comp_move = ["Rock", "Paper", "Scissors"].sample %>
@@ -16,4 +12,5 @@ They played <%= comp_move %>!
   <h2> We lose! </h2>
 <% elsif comp_move == "Scissors" %>
   <h2> We won! </h2>
+  
 <% end %>
